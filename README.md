@@ -23,3 +23,8 @@ git clone https://github.com/DARK-TOXIC/Toxic-clone
 cd Toxic-clone
 
 python Toxic.py
+
+
+
+
+<p align="center"><img src="https://c.top4top.io/p_25956w5610.jpg">
